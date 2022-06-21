@@ -1,0 +1,313 @@
+.box{
+	width: 60vw;
+	height: 95vw;
+	margin-left: 20vw;
+	margin-top: 26vw;
+	position: fixed;
+	background-color: rgba(0,0,200,0.1);
+	background-image: url(../img/35.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	text-align: center;
+}
+.box p{
+	padding-top: 80vw;
+	padding-left: 4vw;
+	font-size: 4vw;
+	color: #fff;
+}
+.box #header-right{
+	position: absolute;
+	width: 6vw;
+	height: 5vw;
+	border-radius: 5px;
+	top: 0;
+	left: 90%;
+	text-align: center;
+}
+/****************** 定义全局容器部分 ******************/
+.wrapper{
+	width: 100%;
+	height: 100%;
+}
+/****************** Header部分 ******************/
+.wrapper header{
+	width: 100%;
+	height: 12vw;
+	display: flex;
+	align-items: center;
+}
+
+.wrapper header .icon-location-box{
+	width: 3.5vw;
+	height: 3.5vw;
+	margin: 0 1vw 0 3vw;
+}
+
+.wrapper header .icon-location-box img{
+	width: 10vw;
+	height: 10vw;
+	border: 1px solid black;
+	border-radius: 100px;
+	margin-top: -3vw;
+	margin-left: -1.5vw;
+}
+
+.wrapper header .location-text{
+	font-size: 2vw;
+	margin-left: 6vw;
+	margin-top: 4vw;
+	font-weight: 700;
+	color:rgba(0,0,0,0.4)
+}
+/****************** 运动type部分 ******************/
+.wrapper .playtype{
+	width: 100%;
+	height: 5vw;
+	margin-bottom: 5vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.wrapper .playtype li{
+	font-size: 3.5vw;
+	color: #555;
+	list-style-type: none;
+}
+/****************** 中间主体部分 ******************/
+.wrapper .mainner{
+	width: 95%;
+	margin: 0 auto;
+	height: 50vw;
+	/*此三个样式组合，可以保证背景图片充满整个容器*/
+	background-image: url(../img/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	padding: 2vw 27vw;
+	text-align: center;
+}
+.wrapper .mainner .butt{
+	margin: 10vw auto;
+	height: 15vw;
+	width: 15vw;
+	border-radius: 7.5vw;
+	background-color:	#98F898 ;
+}
+.wrapper .mainner .butt span{
+	font-size: 2vw;
+}
+.wrapper .mainner i{
+	font-size: 4vw;
+}
+.wrapper .mainner .loc{
+	font-size: 3vw;
+	font-weight: 700;
+	width: 45vw;
+	background-color: azure;
+	border-radius: 7.5vw;
+	color:rgba(0,0,0,0.4)
+}
+/****************** 中间功能部分 ******************/
+.wrapper .mider{
+	width: 100%;
+	height: 5vw;
+	margin-bottom: 5vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.wrapper .mider button{
+	border-radius: 1.8vw;
+}
+.wrapper .mider span{
+	font-size: 3vw;
+}
+.wrapper .mider .fa1{
+	background-color: 	#98F898;
+}
+.wrapper .mider .fa2{
+	background-color: #FF5511 ;
+}
+.wrapper .mider .fa3{
+	background-color: #98F898;
+}
+.wrapper .mider .fa4{
+	background-color: 	#FFDD55;
+}
+.wrapper .mider li{
+	font-size: 3.5vw;
+	color: #555;
+	list-style-type: none;
+}
+.wrapper .mider li i{
+	font-size: 3vw;
+}
+/****************** 广告部分 ******************/
+.wrapper .gb{
+	width: 95%;
+	margin: 0 auto;
+	height: 30vw;
+	/*此三个样式组合，可以保证背景图片充满整个容器*/
+	background-image: url(../img/2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	padding: 2vw 27vw;
+	text-align: center;
+}
+/****************** 社交生活部分 ******************/
+.wrapper .lifetype{
+	width: 100%;
+	height: 18vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+}
+.wrapper .lifetype .p1{
+	background:rgba(200, 54, 54, 0.5);
+	border-radius: 1.5vw;
+	width: 20vw;
+	height: 8vw;
+}
+.wrapper .lifetype .p2{
+	background:rgba(100, 100, 200, 0.5);
+	border-radius: 1.5vw;
+	width: 20vw;
+	height: 8vw;
+}
+.wrapper .lifetype .p3{
+	background:rgba(50, 200, 54, 0.5);
+	border-radius: 1.5vw;
+	width: 20vw;
+	height: 8vw;
+}
+.wrapper .lifetype .p4{
+	background:rgba(100, 50, 20, 0.5);
+	border-radius: 1.5vw;
+	width: 20vw;
+	height: 8vw;
+}
+.wrapper .lifetype li p{
+	font-size: 1.5vw;
+	text-align: center;
+	margin-top: 2vw;
+	color: #666;
+}
+/****************** 动态部分 ******************/
+.wrapper .dt{
+	width: 100%;
+	height: 310vw;
+	display: flex;
+	flex-direction: row;
+}
+/****************** 第一张动态图 ******************/
+.wrapper .dt .dt1{
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+	margin-left: 2.5vw;
+}
+.wrapper .dt .dt1 img{
+	width: 100%;
+	height: 60vw;
+	margin-top: 0vw;
+}
+.wrapper .dt .dt1 button{
+	margin-top: -1vw;
+}
+.wrapper .dt .dt1 p{
+	display: flex;
+	font-size: 3.2vw;
+	color: #666;
+}
+.wrapper .dt .dt1 .land{
+	display: flex;
+	flex-direction: row;
+}
+.wrapper .dt .dt1 .land img{
+	width: 6vw;
+	height: 6vw;
+	border-radius: 50%;
+	margin-left: 1vw;
+}
+.wrapper .dt .dt1 .land p{
+	margin-left: 3vw;
+}
+.wrapper .dt .land button{
+	border:none;
+	background-color:  #fff;
+}
+/****************** 第二张动态 ******************/
+.wrapper .dt .dt2{
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+	margin-left: 6vw;
+}
+.wrapper .dt .dt2 img{
+	width: 100%;
+	height: 50vw;
+	margin-top: 0vw;
+}
+.wrapper .dt .dt2 button{
+	margin-top: -1vw;
+}
+.wrapper .dt .dt2 p{
+	display: flex;
+	font-size: 3.2vw;
+	color: #666;
+}
+.wrapper .dt .dt2 .land{
+	display: flex;
+	flex-direction: row;
+}
+.wrapper .dt .dt2 .land img{
+	width: 6vw;
+	height: 6vw;
+	border-radius: 50%;
+	margin-left: 1vw;
+}
+.wrapper .dt .dt2 .land p{
+	margin-left: 3vw;
+}
+.wrapper .dt .land button{
+	border:none;
+	background-color:  #fff;
+}
+/****************** 底部菜单部分 ******************/
+.wrapper .footer{
+	width: 100%;
+	height: 10vw;
+	border-top: solid 1px #DDD;
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.wrapper .footer .fa-telegram{
+	color: #00BBFF;
+	font-weight: 700;
+}
+.wrapper .footer li{
+	/*li本身的尺寸完全由内容撑起*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #999;
+	user-select: none;
+	cursor: pointer;
+}
+.wrapper .footer li p{
+	font-size: 2.8vw;
+}
+.wrapper .footer li i{
+	font-size: 5vw;
+}
+

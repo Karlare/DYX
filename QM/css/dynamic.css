@@ -1,0 +1,208 @@
+/****************** Header部分 ******************/
+header{
+	width: 100%;
+	height: 12vw;
+	display: flex;
+	align-items: center;
+}
+header .icon-location-box{
+	width: 3.5vw;
+	height: 3.5vw;
+	margin: 0 1vw 0 3vw;
+}
+header .icon-location-box img{
+	width: 10vw;
+	height: 10vw;
+	border: 1px solid black;
+	border-radius: 100px;
+	position: absolute;
+	left: 10px;
+	top: 12px
+}
+header .location-text{
+	width: 40%;
+	height: 12vw;
+	margin-left: 6vw;
+	font-weight: 700;
+}
+header .location-text .text1{
+	padding-top: 3vw;
+	padding-left: 2vw;
+	font-size: 3vw;
+}
+header .location-text .text2{
+	font-size: 1.5vw;
+	padding-top: 2vw;
+	padding-left: 2vw;
+	color:rgba(0,0,0,0.4)
+}
+header .right{
+	width: 50%;
+	height: 100%;
+	margin-top: -4vw;
+	margin-left: 9vw;
+	display: flex;
+	flex-direction: row;
+}
+header .right button{
+	width: 11vw;
+	margin-left: 16vw;
+	margin-top: 7vw;
+	border-radius: 7vw;
+	background-color: #99FF99;
+}
+header .right .fa-ellipsis-h{
+	font-size: 4vw;
+	margin-top: 8vw;
+	margin-left: 3vw;
+}
+/****************** 图片部分 ******************/
+.pic{
+	width: 100%;
+	height: 90vw;
+	background-color: aquamarine;
+}
+.pic img{
+	width: 100%;
+	height: 100%;
+	/*此三个样式组合，可以保证背景图片充满整个容器*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+}
+/****************** 图片说明部分 ******************/
+.pictext{
+	width: 100%;
+	height: 40vw;
+	display: flex;
+	flex-direction: column;
+}
+.pictext .text1{
+	width: 100%;
+	height: 30%;
+}
+.pictext .text2{
+	width: 100%;
+	height: 30%;
+}
+.pictext .text3{
+	width: 100%;
+	height: 20%;
+}
+.pictext .text3 button{
+	margin-top: 2vw;
+	background-color: #99FF99;
+	border-radius: 7vw;
+}
+.pictext .text4{
+	width: 100%;
+	height: 20%;
+	font-size: 2vw;
+	margin-top: 3vw;
+	margin-left: 1vw;
+	color:rgba(0,0,0,0.8)
+}
+.pictext .text5{
+	width: 100%;
+	height: 20%;
+	display: flex;
+	flex-direction: row;
+}
+.pictext .text5 img{
+	width: 6vw;
+	height: 6vw;
+	border: 1px solid black;
+	border-radius: 100px;
+	margin-left: 1vw;
+}
+.pictext .text5 .goods{
+	font-size: 3vw;
+	padding-left: 35vw;
+	padding-top: 1vw;
+	color:rgba(0,0,0,0.5);
+}
+.pictext .text5 .fa-angle-right{
+	font-size: 5vw;
+	margin-left: 4vw;
+	margin-top: 0.5vw;
+}
+/****************** 评论区部分 ******************/
+.comments{
+	width: 100%;
+	height: 160vw;
+}
+.comments .comment{
+	width: 100%;
+	height: 20vw;
+}
+.comments .comment .text1{
+	width: 100%;
+	height: 40%;
+	display: flex;
+}
+.comments .comment .text1 img{
+	width: 6vw;
+	height: 6vw;
+	border: 1px solid black;
+	border-radius: 100px;
+	margin-top: 1vw;
+}
+.comments .comment .text1 .message{
+	width: 50%;
+	height: 100%;
+	margin-top: 1vw;
+	display: flex;
+	flex-direction: column;
+}
+.comments .comment .text1 .user{
+	font-size: 2.6vw;
+	font-weight: 700;
+	padding-top: -5vw;
+}
+.comments .comment .text1 .school{
+	font-size: 1vw;
+}
+.comments .comment .text2{
+	width: 90%;
+	height: 40%;
+	margin-left: 7vw;
+	display: flex;
+	align-items: center;
+}
+.comments .comment .text3{
+	width: 90%;
+	height: 18%;
+	margin-left: 7vw;
+	font-size: 2vw;
+}
+/****************** 底部部分 ******************/
+.footer{
+	width: 100%;
+	height: 8vw;
+	border-top: solid 1px #DDD;
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer button{
+	width: 60vw;
+	height: 100%;
+	border-radius: 8vw;
+	margin-left: 6vw;
+	background-color: rgba(0, 0, 0,0.1);
+}
+.footer .tb{
+	width: 100%;
+	height: 70%;
+	margin-left: 16vw;
+}
+.footer .tb i{
+	font-size: 3.5vw;
+}
+.footer .tb i span{
+	padding-left: 1.5vw;
+}

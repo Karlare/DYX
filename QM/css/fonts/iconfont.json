@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "21284741",
+      "name": "奔跑",
+      "font_class": "benpao",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    }
+  ]
+}

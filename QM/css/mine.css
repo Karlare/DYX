@@ -1,0 +1,205 @@
+/****************** 顶部部分 ******************/
+header{
+	width: 100%;
+	height: 30vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	background:rgba(0,100, 0, 0.5);
+}
+header .pic{
+	display: flex;
+}
+header .pic .fa-codepen{
+	font-size: 5vw;
+	margin-left: 8vw;
+	margin-top: 3vw;
+}
+header .pic .fa-qrcode{
+	font-size: 5vw;
+	margin-left: 70vw;
+	margin-top: 3vw;
+}
+header .pic .fa-file-text-o{
+	font-size: 4.2vw;
+	margin-left: 6vw;
+	margin-top: 3.2vw;
+	font-weight: 600;
+}
+header .user{
+	width: 100%;
+	height: 20vw;
+}
+header .user img{
+	width: 15vw;
+	height: 15vw;
+	border-radius: 7.5vw;
+	margin-top: 4vw;
+	margin-left: 4vw;
+}
+header .user .discrption{
+	width: 40vw;
+	font-size: 2vw;
+	margin-left: 20vw;
+	margin-top: -15vw;
+}
+header .user .discrption .p1{
+	font-size: 4vw;
+}
+header .user .discrption .p1 button{
+	font-size: 3vw;
+	border-radius: 3vw;
+	background-image: linear-gradient(to right,#99FF33,	#66DD00,#227700 );
+}
+header .user .discrption .p2{
+	font-size: 1vw;
+}
+header .user .discrption .p3{
+	font-size: 2.5vw;
+}
+header .user .discrption .p4{
+	font-size: 5vw;
+	margin-left: 75vw;
+	margin-top: -10vw;
+}
+/****************** 顶部列表部分 ******************/
+.list .ull{
+	width: 100%;
+	height: 6vw;
+	margin-bottom: 5vw;
+	margin-top: 5vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.list .ull li{
+    width: 16%;
+    height: 90%;
+    border-right: solid #ACC0D8 1px;
+}
+.list .ull .clear{
+	border-right: solid #ACC0D8 0px;
+}
+.list .ull li p{
+	font-size: 3vw;
+	text-align: center;
+}
+/****************** 跑步进度条部分 ******************/
+.progressbar{
+	width: 100%;
+	height: 24vw;
+}
+.progressbar .bartext{
+	width: 100%;
+	height: 10vw;
+	display: flex;
+	flex-direction: row;
+}
+.progressbar .bartext .bartext1{
+	font-size: 3vw;
+	margin-left: 20vw;
+	margin-top: 3vw;
+}
+.progressbar .bartext .bartext2{
+	font-size: 3vw;
+	margin-left: 27vw;
+	margin-top: 3vw;
+}
+.progressbar .bar{
+	width: 90vw;
+	margin-left: 5vw;
+	height: 2%;
+	border-radius: 45vw;
+	background:rgba(0,250, 0, 0.8);
+}
+/****************** 跑步进度数字部分 ******************/
+.progressbar .number{
+	width: 100%;
+	height: 10vw;
+	display: flex;
+	flex-direction: row;
+}
+.progressbar .number .number1{
+	font-size: 6vw;
+	margin-left: 20vw;
+	font-weight: 700;
+}
+.progressbar .number .number2{
+	font-size: 6vw;
+	margin-left: 29vw;
+	font-weight: 700;
+}
+/****************** 功能选项部分 ******************/
+.opptionlist{
+	height: 44vw;
+}
+.opptionlist .opption{
+	height: 100%;
+	margin-bottom: 5vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: 10vw;
+}
+.opptionlist .opption li{
+	margin-top: 3vw;
+	width: 23%;
+	height: 12vw;
+}
+.opptionlist .opption li i{
+	margin-left: 3.4vw;
+	font-size: 4vw;
+}
+.opptionlist .opption li p{
+	font-size: 3vw;
+}
+/****************** 两个选择栏部分 ******************/
+.opptionbar{
+	height: 50vw;
+}
+.opptionbar .fa-angle-right{
+	padding-left: 80vw;
+}
+.opptionbar1{
+	height: 5vw;
+	padding-left: 10vw;
+}
+.opptionbar2{
+	height: 5vw;
+	padding-left: 10vw;
+}
+/****************** 底部导航部分 ******************/
+.footer{
+	width: 100%;
+	height: 10vw;
+	border-top: solid 1px #DDD;
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer .fa-wpexplorer{
+	color: #00BBFF;
+	font-weight: 700;
+}
+.footer li{
+	/*li本身的尺寸完全由内容撑起*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #999;
+	user-select: none;
+	cursor: pointer;
+}
+.footer li p{
+	font-size: 2.8vw;
+}
+.footer li i{
+	font-size: 5vw;
+}

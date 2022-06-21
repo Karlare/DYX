@@ -1,0 +1,109 @@
+.wrapper{
+	width: 95%;
+	height: 280vw;
+}
+/******首部图片******/
+.wrapper .headerpicture{
+	width: 95%;
+	margin: 0 auto;
+	height: 30vw;
+	/*此三个样式组合，可以保证背景图片充满整个容器*/
+	background-image: url(../img/20.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	padding: 2vw 27vw;
+	text-align: center;
+}
+/****************** 功能选择部分 ******************/
+.wrapper .header{
+	width: 100%;
+	height: 5vw;
+	margin-bottom: 5vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.wrapper .header .now{
+	font-size: 4vw;
+	font-weight: 700;
+	text-decoration: underline;
+	text-decoration-color: aquamarine;
+}
+.wrapper .header li{
+	font-size: 3.5vw;
+	color: #555;
+	list-style-type: none;
+}
+.wrapper .header a{
+	font-size: 3vw;
+}
+/****************** 动态部分 ******************/
+.wrapper .dt{
+	width: 100%;
+	height: 30vw;
+}
+.wrapper .dt .hea{
+	width: 53%;
+	height: 10vw;
+}
+.wrapper .dt .hea p{
+	padding-top: 6vw;
+	font-size: 3vw;
+	display: flex;
+}
+.wrapper .dt .foot{
+	width: 53%;
+	height: 10vw;
+	margin-top: 10vw;
+}
+.wrapper .dt .foot p{
+	padding-top: 6.7vw;
+	font-size: 2vw;
+	display: flex;
+	color:rgba(0,0,0,0.5)
+}
+.wrapper .dt .right{
+	height: 100%;
+	width: 48%;
+	margin-left: 52vw;
+	margin-top: -30vw;
+}
+.wrapper .dt .right img{
+	height: 100%;
+	width: 100%;
+	/*padding-left: 56vw;*/
+}
+/****************** 底部菜单部分 ******************/
+.wrapper .footer{
+	width: 100%;
+	height: 10vw;
+	border-top: solid 1px #DDD;
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.wrapper .footer .fa-street-view{
+	color: #00BBFF;
+	font-weight: 700;
+}
+.wrapper .footer li{
+	/*li本身的尺寸完全由内容撑起*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #999;
+	user-select: none;
+	cursor: pointer;
+}
+.wrapper .footer li p{
+	font-size: 2.8vw;
+}
+.wrapper .footer li i{
+	font-size: 5vw;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link href="framework/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<title>广告</title>
+		<style type="text/css">
+			.ggg .box{
+				width: 40vw;
+				height: 40vw;
+				margin-left: 20vw;
+				margin-top: 20vw;
+				position: fixed;
+				background-color: rgba(0,0,200,0.1);
+			}
+			.ggg .box #header-right{
+				position: absolute;
+				width: 6vw;
+				height: 5vw;
+				border-radius: 5px;
+				background: red;
+				color: #fff;
+				top: 0;
+				left: 36%;
+				text-align: center;
+			}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="ggg">
+			<div class="box" id="box">
+				<div id="header-right" onclick="hidder()"><i class="fa fa-close"></i></div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			function hidder(){
+				document.getElementById('box').style.display="none";
+			}
+		</script>
+	</body>
+</html>
+
